@@ -1,0 +1,203 @@
+#container{
+
+    width: 1000px;
+   
+    margin: 0 auto;
+
+}
+
+#header{
+     
+    height: 100px;
+    padding: 10px 0px;
+}
+
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: green;
+    text-decoration: none;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(pink, orange);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    
+
+}
+
+.text{
+
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+   background: white url(search.svg) right center no-repeat;
+
+}
+
+.submit{
+
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: purple;
+    font-size: 15px;
+}
+
+.clear{
+
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(pink , orange);
+    padding: 5px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid black;
+}
+
+#menu ul li:last-child{
+
+    border-right: none;
+
+}
+
+#menu ul li a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: black;
+    line-height: 40px;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover , #menu ul li a.active{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+}
+
+#introduction{
+
+    background: linear-gradient(rgb(228, 16, 16) , pink);
+    padding: 30px;
+    margin: 16px 0px;
+}
+
+#introduction h3{
+
+    font-size: 45px;
+    color: black;
+    
+}
+
+#introduction p{
+
+    font-size: 25px;
+    color: black;
+    text-align: justify;
+    
+
+}
+
+.sidebar{
+
+    height: 500px;
+    width: 420px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: pink;
+}
+
+.sidebar h1{
+    color: purple;
+    font-size: 30px;
+
+}
+
+#sidebar ul{
+
+    padding-top: 8px;
+    
+}
+
+#leftsidebar ul li{
+
+    padding-top: 2px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border: 1px solid red;
+    list-style-image: url(arrow-right-circle.svg);
+
+
+}
+
+#rightsidebar ul li{
+
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 40px;
+    background: url(check2-circle.svg) no-repeat left center;
+}
+
+.sidebar ul li a{
+    
+    text-decoration: none;
+    font-size: 28px;
+    color: purple;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover , .sidebar ul li a.active{
+    
+    text-decoration: none;
+    color: purple;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+footer{
+
+    height: 60px;
+    font-size: 18px;
+    background: linear-gradient(orange , red);
+    padding: 30px 30px;
+    margin-top: 15px;
+
+}
+
+
+
